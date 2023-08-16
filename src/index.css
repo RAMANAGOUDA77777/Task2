@@ -1,0 +1,245 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#navbar{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(7,59,82);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar h1{
+    margin: 0px 50px;
+    color: white;
+    font-size: 40px;
+}
+strong{
+  color:  rgb(210,170,10);
+}
+ul{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+li{
+    color: white;
+    margin: 0px 25px;
+}
+
+/* middle -section */
+
+#middle{
+    width: 100%;
+    height: 300px;
+    background: url("https://images8.alphacoders.com/415/thumb-1920-415272.jpg");
+    position: relative;
+}
+#middle>h1{
+  position: absolute;
+  top: 5vh;
+  left: 90vh;
+  font-size: 45px;
+  color: white;
+}
+#middle>p{
+    position: absolute;
+    top: 14vh;
+    left: 82vh;
+    letter-spacing: 1px;
+    font-size: 25px;
+    color: white;
+}
+#middle>button{
+    position: absolute;
+    top: 21vh;
+    left: 88vh;
+    width: 250px;
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(210,170,10);
+    color: white;
+}
+.box>div{
+   width: 20px;
+   height: 20px;
+   background-color: white;
+}
+
+/* third - container */
+
+#third-container{
+    width:100%;
+    height: 550px;
+    position: relative;
+}
+#third-container h3,span{
+    margin: 0px 490px;
+    font-size: 25px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+#third-container>span{
+    margin-left: 510px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.books{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ margin: 40px;
+}
+
+.books-container{
+    width: 250px;
+    height: 280px;
+    background-color: white;
+    position: relative;
+    border-radius: 20px;
+
+}
+.books-container>img{
+    width: 150px;
+    position: absolute;
+    top: 3vh;
+    left: 5vh;
+}
+.books-container>button{
+    position: absolute;
+    top: 24vh;
+    left: 3vh;
+    width: 180px;
+    height: 30px;
+    border-radius: 0px 0px 10px 10px;
+    border: none;
+    background-color: rgb(228,55,0);
+}
+.books-container>p{
+    position: absolute;
+    top: 28vh;
+    left: 4vh;
+    font-size: 12px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.sub>p{
+    position: absolute;
+    top: 32vh;
+    left: 4vh;
+}
+.sub >p>strong{
+   font-size: 12px;
+   padding: 10px;
+   text-decoration: underline;
+   text-decoration-color: black;
+}
+#last{
+    position: absolute;
+    top: 35vh;
+    left: 4vh;
+    font-size: 12px;
+}
+
+#btn{
+    margin: 0px 700px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(210,170,10);
+    color: white;
+}
+
+#fourth{
+    width: 100%;
+    height: 900px;
+    background-color: rgb(6,48,66);
+}
+.name{
+    margin: 0 480px;
+    padding-top: 20px;
+    color: white;
+}
+.names{
+    margin: 0px 680px;
+    padding-top: 5px;
+    color: white;
+}
+.around-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.submission{
+    width: 350px;
+    height: 500px;
+    background-color: rgb(202, 131, 22);
+    position: relative;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.submission>h1{
+   position: absolute;
+   top: 5vh;
+   left: 10vh;
+   color: white;
+}
+#image{
+    width: 200px;
+    height: 200px;
+
+}
+.submission>img{
+    position: absolute;
+    top: 13vh;
+    left: 8vh;
+}
+article{
+    position: relative;
+}
+article{
+    position: absolute;
+    top: 45vh;
+    left: 7vh;
+    letter-spacing: 1px;
+    color: white;
+}
+#btn2{
+   position: absolute;
+   top: 55vh; 
+   left: 3vh;
+   width: 300px;
+   height: 35px;
+   border-radius: 10px;
+   border: none;
+   background-color: white;
+}
+#color2{
+    background-color: rgb(140,181,17);
+}
+#color3{
+    background-color: rgb(142,31,184);
+}
+#set{
+    margin: 50px 500px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: rgb(239, 186, 0);
+}
+#list{
+    margin: 0px 400px;   
+}
+#list>li>strong{
+    padding-right: 10px;
+    font-size: 50px;
+}
+#list>li{
+    width: 500px;
+}
